@@ -4,8 +4,22 @@ namespace controllers;
  * Controller InscriptionsController
  **/
 class InscriptionsController extends ControllerBase{
-
-	public function index(){
+/**
+ *
+ * @get("_default","name"=>"Home")
+ */
+public function index()
+	{
 		$this->loadView("InscriptionsController/index.html");
 	}
+
+	/**
+	 *@route("Inscription")
+	**/
+	public function Bouton(){
+		
+		$this->loadView('InscriptionsController/Bouton.html');
+
+	}
+
 }
