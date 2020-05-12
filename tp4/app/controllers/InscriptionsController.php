@@ -22,4 +22,14 @@ public function index()
 
 	}
 
+
+	/**
+	 *@route("/do/Inscription")
+	**/
+	public function do(){
+		
+		$this->loadView('InscriptionsController/do.html');
+
+	}
+
 }

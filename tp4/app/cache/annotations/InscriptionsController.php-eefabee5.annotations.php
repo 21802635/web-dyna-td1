@@ -15,5 +15,8 @@ return array(
   'controllers\\InscriptionsController::Bouton' => array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "Inscription")
   ),
+  'controllers\\InscriptionsController::loadView' => array(
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "/do/Inscription")
+  ),
 );
 
